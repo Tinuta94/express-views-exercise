@@ -1,0 +1,9 @@
+<h1>All Shops</h1>
+<a href="/shops/createShop">New Shop</a>
+<ul>
+    {{#each allShops}}
+    <li>
+     <a href="shops/{{@index}}">{{name}}</a>
+    </li>
+    {{/each}}
+</ul>
